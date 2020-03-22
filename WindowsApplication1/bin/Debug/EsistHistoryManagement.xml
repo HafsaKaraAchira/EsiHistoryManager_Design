@@ -15,11 +15,15 @@ EsistHistoryManagement
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._002_gantt_chart">
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._002_gantt_chart_bj">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._002_gantt_chart1">
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._002_gantt_chart_blue">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._006_line_chart">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -27,11 +31,19 @@ EsistHistoryManagement
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._014_search_bej">
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._014_search">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._099_diagram_bej">
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._014_search_blue">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._099_diagram">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._exit">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -51,7 +63,7 @@ EsistHistoryManagement
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.content">
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.details">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -63,35 +75,31 @@ EsistHistoryManagement
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.form">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.form1">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
 </member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.gear__1_">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.info__4_">
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.hamburger">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.loGO_ART_BLEU">
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.historique">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.logo_art_name">
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.info">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.menu">
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.logo">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.nav_bar_radient">
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.logo_white">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.modifier">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -108,6 +116,14 @@ EsistHistoryManagement
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.Rectangle_rose">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.RN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.RNG">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

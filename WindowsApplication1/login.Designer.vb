@@ -250,7 +250,7 @@ Partial Class Login
         '
         'logo
         '
-        Me.logo.Image = Global.EsistHistoryManagement_v1.My.Resources.Resources.logo_art_name
+        Me.logo.Image = Global.EsistHistoryManagement_v1.My.Resources.Resources.logo
         Me.logo.Location = New System.Drawing.Point(301, 28)
         Me.logo.Name = "logo"
         Me.logo.Size = New System.Drawing.Size(362, 203)
@@ -274,7 +274,7 @@ Partial Class Login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1018, 719)
+        Me.ClientSize = New System.Drawing.Size(1018, 709)
         Me.Controls.Add(Me.avertissemnt)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.profile_photo_login)

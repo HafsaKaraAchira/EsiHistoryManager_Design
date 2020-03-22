@@ -5,9 +5,10 @@
     Private Sub Home_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
         MenuButton.Location = New System.Drawing.Point(0, 0)
-        SideBar.Width = 75
+        SideBar.Width = 55
         SideBar.Enabled = False
-        NavBar.Enabled = False
+        NavBar.Width = 795
+        NavBar.Location = New System.Drawing.Point(58, 639)
 
 
         If _ModeConnexion Then
@@ -20,7 +21,6 @@
             End With
 
             With ModifButton
-                .Enabled = True
                 .Visible = True
             End With
 
@@ -51,40 +51,113 @@
     Private Sub MenuButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MenuButton.Click
         logo_bleu.Visible = Not logo_bleu.Visible
         SideBar.Enabled = True
+        NavBar.Width = 666
+        NavBar.Location = New System.Drawing.Point(188, 639)
 
         If logo_bleu.Visible Then
-            SideBar.Width = 215
-        Else : SideBar.Width = 75
+            SideBar.Width = 185
+            NavBar.Width = 666
+            NavBar.Location = New System.Drawing.Point(188, 639)
+        Else
+            SideBar.Width = 55
+            NavBar.Width = 795
+            NavBar.Location = New System.Drawing.Point(58, 639)
         End If
     End Sub
 
 
     Private Sub BT_CLASS_MouseClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles BT_CLASS.MouseClick
-        BT_CLASS.BackColor = Color.FromKnownColor(KnownColor.MenuHighlight)
-        BT_STAT.BackColor = Color.FromArgb(255, 0, 64, 104)
-        BT_RECH.BackColor = Color.FromArgb(255, 0, 64, 104)
-        BT_PV.BackColor = Color.FromArgb(255, 0, 64, 104)
+        With BT_CLASS
+            .BackColor = Color.FromKnownColor(KnownColor.ActiveCaption)
+            .ForeColor = Color.Black
+            .Font = New Font(.Font, FontStyle.Bold)
+        End With
+        With BT_STAT
+            .BackColor = Color.FromArgb(255, 0, 64, 104)
+            .ForeColor = Color.LavenderBlush
+            .Font = New Font(.Font, FontStyle.Regular)
+        End With
+        With BT_RECH
+            .BackColor = Color.FromArgb(255, 0, 64, 104)
+            .ForeColor = Color.LavenderBlush
+            .Font = New Font(.Font, FontStyle.Regular)
+        End With
+        With BT_PV
+            .BackColor = Color.FromArgb(255, 0, 64, 104)
+            .ForeColor = Color.LavenderBlush
+            .Font = New Font(.Font, FontStyle.Regular)
+        End With
 
     End Sub
 
     Private Sub BT_STAT_MouseClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles BT_STAT.MouseClick
-        BT_CLASS.BackColor = Color.FromArgb(255, 0, 64, 104)
-        BT_STAT.BackColor = Color.FromKnownColor(KnownColor.MenuHighlight)
-        BT_RECH.BackColor = Color.FromArgb(255, 0, 64, 104)
-        BT_PV.BackColor = Color.FromArgb(255, 0, 64, 104)
+        With BT_CLASS
+            .BackColor = Color.FromArgb(255, 0, 64, 104)
+            .ForeColor = Color.LavenderBlush
+            .Font = New Font(.Font, FontStyle.Regular)
+        End With
+        With BT_STAT
+            .BackColor = Color.FromKnownColor(KnownColor.ActiveCaption)
+            .ForeColor = Color.Black
+            .Font = New Font(.Font, FontStyle.Bold)
+        End With
+        With BT_RECH
+            .BackColor = Color.FromArgb(255, 0, 64, 104)
+            .ForeColor = Color.LavenderBlush
+            .Font = New Font(.Font, FontStyle.Regular)
+        End With
+        With BT_PV
+            .BackColor = Color.FromArgb(255, 0, 64, 104)
+            .ForeColor = Color.LavenderBlush
+            .Font = New Font(.Font, FontStyle.Regular)
+        End With
     End Sub
 
     Private Sub BT_RECH_MouseClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles BT_RECH.MouseClick
-        BT_CLASS.BackColor = Color.FromArgb(255, 0, 64, 104)
-        BT_STAT.BackColor = Color.FromArgb(255, 0, 64, 104)
-        BT_RECH.BackColor = Color.FromKnownColor(KnownColor.MenuHighlight)
-        BT_PV.BackColor = Color.FromArgb(255, 0, 64, 104)
+        With BT_CLASS
+            .BackColor = Color.FromArgb(255, 0, 64, 104)
+            .ForeColor = Color.LavenderBlush
+            .Font = New Font(.Font, FontStyle.Regular)
+        End With
+        With BT_STAT
+            .BackColor = Color.FromArgb(255, 0, 64, 104)
+            .ForeColor = Color.LavenderBlush
+            .Font = New Font(.Font, FontStyle.Regular)
+        End With
+        With BT_RECH
+            .BackColor = Color.FromKnownColor(KnownColor.ActiveCaption)
+            .ForeColor = Color.Black
+            .Font = New Font(.Font, FontStyle.Bold)
+        End With
+        With BT_PV
+            .BackColor = Color.FromArgb(255, 0, 64, 104)
+            .ForeColor = Color.LavenderBlush
+            .Font = New Font(.Font, FontStyle.Regular)
+        End With
     End Sub
 
     Private Sub BT_PV_MouseClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles BT_PV.MouseClick
-        BT_CLASS.BackColor = Color.FromArgb(255, 0, 64, 104)
-        BT_STAT.BackColor = Color.FromArgb(255, 0, 64, 104)
-        BT_RECH.BackColor = Color.FromArgb(255, 0, 64, 104)
-        BT_PV.BackColor = Color.FromKnownColor(KnownColor.MenuHighlight)
+        With BT_CLASS
+            .BackColor = Color.FromArgb(255, 0, 64, 104)
+            .ForeColor = Color.LavenderBlush
+            .Font = New Font(.Font, FontStyle.Regular)
+        End With
+        With BT_STAT
+            .BackColor = Color.FromArgb(255, 0, 64, 104)
+            .ForeColor = Color.LavenderBlush
+            .Font = New Font(.Font, FontStyle.Regular)
+        End With
+        With BT_RECH
+            .BackColor = Color.FromArgb(255, 0, 64, 104)
+            .ForeColor = Color.LavenderBlush
+            .Font = New Font(.Font, FontStyle.Regular)
+        End With
+        With BT_PV
+            .BackColor = Color.FromKnownColor(KnownColor.ActiveCaption)
+            .ForeColor = Color.Black
+            .Font = New Font(.Font, FontStyle.Bold)
+        End With
+
     End Sub
+
 End Class
