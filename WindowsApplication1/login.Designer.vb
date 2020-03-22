@@ -23,39 +23,39 @@ Partial Class Login
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login))
-        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.ConnexionPanel = New System.Windows.Forms.Panel()
         Me.ConexionButton = New System.Windows.Forms.Button()
         Me.MotDePasseTextField = New System.Windows.Forms.MaskedTextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.MDP_Label = New System.Windows.Forms.Label()
+        Me.ModeDeConnexionPanel = New System.Windows.Forms.Panel()
+        Me.ConnecterLabel = New System.Windows.Forms.Label()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.LineShape2 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.TypeDeConnexion = New System.Windows.Forms.GroupBox()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.AgentButton = New System.Windows.Forms.RadioButton()
+        Me.AdminButton = New System.Windows.Forms.RadioButton()
         Me.avertissemnt = New System.Windows.Forms.Label()
         Me.profile_photo_login = New System.Windows.Forms.PictureBox()
         Me.logo = New System.Windows.Forms.PictureBox()
         Me.bagrd_ellipse = New System.Windows.Forms.PictureBox()
-        Me.Panel2.SuspendLayout()
-        Me.Panel1.SuspendLayout()
+        Me.ConnexionPanel.SuspendLayout()
+        Me.ModeDeConnexionPanel.SuspendLayout()
         Me.TypeDeConnexion.SuspendLayout()
         CType(Me.profile_photo_login, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.logo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.bagrd_ellipse, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Panel2
+        'ConnexionPanel
         '
-        Me.Panel2.Controls.Add(Me.ConexionButton)
-        Me.Panel2.Controls.Add(Me.MotDePasseTextField)
-        Me.Panel2.Controls.Add(Me.Label2)
-        Me.Panel2.Location = New System.Drawing.Point(301, 342)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(384, 209)
-        Me.Panel2.TabIndex = 4
+        Me.ConnexionPanel.Controls.Add(Me.ConexionButton)
+        Me.ConnexionPanel.Controls.Add(Me.MotDePasseTextField)
+        Me.ConnexionPanel.Controls.Add(Me.MDP_Label)
+        Me.ConnexionPanel.Location = New System.Drawing.Point(301, 342)
+        Me.ConnexionPanel.Name = "ConnexionPanel"
+        Me.ConnexionPanel.Size = New System.Drawing.Size(384, 209)
+        Me.ConnexionPanel.TabIndex = 4
         '
         'ConexionButton
         '
@@ -85,45 +85,45 @@ Partial Class Login
         Me.MotDePasseTextField.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.MotDePasseTextField.UseSystemPasswordChar = True
         '
-        'Label2
+        'MDP_Label
         '
-        Me.Label2.CausesValidation = False
-        Me.Label2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(0, 0)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(3)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Padding = New System.Windows.Forms.Padding(8, 0, 0, 0)
-        Me.Label2.Size = New System.Drawing.Size(384, 51)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Mot de passe"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.MDP_Label.CausesValidation = False
+        Me.MDP_Label.Dock = System.Windows.Forms.DockStyle.Top
+        Me.MDP_Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MDP_Label.Location = New System.Drawing.Point(0, 0)
+        Me.MDP_Label.Margin = New System.Windows.Forms.Padding(3)
+        Me.MDP_Label.Name = "MDP_Label"
+        Me.MDP_Label.Padding = New System.Windows.Forms.Padding(8, 0, 0, 0)
+        Me.MDP_Label.Size = New System.Drawing.Size(384, 51)
+        Me.MDP_Label.TabIndex = 0
+        Me.MDP_Label.Text = "Mot de passe"
+        Me.MDP_Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Panel1
+        'ModeDeConnexionPanel
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.ShapeContainer1)
-        Me.Panel1.Controls.Add(Me.TypeDeConnexion)
-        Me.Panel1.ForeColor = System.Drawing.Color.DarkBlue
-        Me.Panel1.Location = New System.Drawing.Point(30, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(222, 728)
-        Me.Panel1.TabIndex = 0
+        Me.ModeDeConnexionPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
+        Me.ModeDeConnexionPanel.Controls.Add(Me.ConnecterLabel)
+        Me.ModeDeConnexionPanel.Controls.Add(Me.ShapeContainer1)
+        Me.ModeDeConnexionPanel.Controls.Add(Me.TypeDeConnexion)
+        Me.ModeDeConnexionPanel.ForeColor = System.Drawing.Color.DarkBlue
+        Me.ModeDeConnexionPanel.Location = New System.Drawing.Point(30, 0)
+        Me.ModeDeConnexionPanel.Name = "ModeDeConnexionPanel"
+        Me.ModeDeConnexionPanel.Size = New System.Drawing.Size(222, 728)
+        Me.ModeDeConnexionPanel.TabIndex = 0
         '
-        'Label1
+        'ConnecterLabel
         '
-        Me.Label1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.ConnecterLabel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Transparent
-        Me.Label1.Location = New System.Drawing.Point(0, 28)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(222, 95)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Connecter en tant que"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.ConnecterLabel.BackColor = System.Drawing.Color.Transparent
+        Me.ConnecterLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ConnecterLabel.ForeColor = System.Drawing.Color.Transparent
+        Me.ConnecterLabel.Location = New System.Drawing.Point(0, 28)
+        Me.ConnecterLabel.Name = "ConnecterLabel"
+        Me.ConnecterLabel.Size = New System.Drawing.Size(222, 95)
+        Me.ConnecterLabel.TabIndex = 0
+        Me.ConnecterLabel.Text = "Connecter en tant que"
+        Me.ConnecterLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'ShapeContainer1
         '
@@ -163,8 +163,8 @@ Partial Class Login
         Me.TypeDeConnexion.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping
         Me.TypeDeConnexion.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
         Me.TypeDeConnexion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.TypeDeConnexion.Controls.Add(Me.RadioButton1)
-        Me.TypeDeConnexion.Controls.Add(Me.RadioButton2)
+        Me.TypeDeConnexion.Controls.Add(Me.AgentButton)
+        Me.TypeDeConnexion.Controls.Add(Me.AdminButton)
         Me.TypeDeConnexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.TypeDeConnexion.Font = New System.Drawing.Font("Microsoft Sans Serif", 0.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TypeDeConnexion.ForeColor = System.Drawing.Color.Transparent
@@ -175,55 +175,55 @@ Partial Class Login
         Me.TypeDeConnexion.TabStop = False
         Me.TypeDeConnexion.Text = resources.GetString("TypeDeConnexion.Text")
         '
-        'RadioButton1
+        'AgentButton
         '
-        Me.RadioButton1.Appearance = System.Windows.Forms.Appearance.Button
-        Me.RadioButton1.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.RadioButton1.CheckAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.RadioButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.RadioButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
-        Me.RadioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
-        Me.RadioButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
-        Me.RadioButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
-        Me.RadioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton1.ForeColor = System.Drawing.Color.Pink
-        Me.RadioButton1.Image = Global.EsistHistoryManagement_v1.My.Resources.Resources.Rectangle_rose
-        Me.RadioButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.RadioButton1.Location = New System.Drawing.Point(3, 109)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(216, 96)
-        Me.RadioButton1.TabIndex = 10
-        Me.RadioButton1.Text = "Agent"
-        Me.RadioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.RadioButton1.UseVisualStyleBackColor = False
+        Me.AgentButton.Appearance = System.Windows.Forms.Appearance.Button
+        Me.AgentButton.BackColor = System.Drawing.Color.Transparent
+        Me.AgentButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.AgentButton.CheckAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.AgentButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.AgentButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
+        Me.AgentButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
+        Me.AgentButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
+        Me.AgentButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
+        Me.AgentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AgentButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AgentButton.ForeColor = System.Drawing.Color.Pink
+        Me.AgentButton.Image = CType(resources.GetObject("AgentButton.Image"), System.Drawing.Image)
+        Me.AgentButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.AgentButton.Location = New System.Drawing.Point(3, 109)
+        Me.AgentButton.Name = "AgentButton"
+        Me.AgentButton.Size = New System.Drawing.Size(216, 96)
+        Me.AgentButton.TabIndex = 10
+        Me.AgentButton.Text = "Agent"
+        Me.AgentButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.AgentButton.UseVisualStyleBackColor = False
         '
-        'RadioButton2
+        'AdminButton
         '
-        Me.RadioButton2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.AdminButton.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadioButton2.Appearance = System.Windows.Forms.Appearance.Button
-        Me.RadioButton2.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton2.CheckAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.RadioButton2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.RadioButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
-        Me.RadioButton2.FlatAppearance.BorderSize = 0
-        Me.RadioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
-        Me.RadioButton2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
-        Me.RadioButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
-        Me.RadioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.RadioButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton2.ForeColor = System.Drawing.Color.LavenderBlush
-        Me.RadioButton2.Image = Global.EsistHistoryManagement_v1.My.Resources.Resources.Rectangle_blanc
-        Me.RadioButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.RadioButton2.Location = New System.Drawing.Point(3, 233)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(216, 97)
-        Me.RadioButton2.TabIndex = 11
-        Me.RadioButton2.Text = "Agent Administratif"
-        Me.RadioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.RadioButton2.UseVisualStyleBackColor = False
+        Me.AdminButton.Appearance = System.Windows.Forms.Appearance.Button
+        Me.AdminButton.BackColor = System.Drawing.Color.Transparent
+        Me.AdminButton.CheckAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.AdminButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.AdminButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
+        Me.AdminButton.FlatAppearance.BorderSize = 0
+        Me.AdminButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
+        Me.AdminButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
+        Me.AdminButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
+        Me.AdminButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AdminButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AdminButton.ForeColor = System.Drawing.Color.LavenderBlush
+        Me.AdminButton.Image = CType(resources.GetObject("AdminButton.Image"), System.Drawing.Image)
+        Me.AdminButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.AdminButton.Location = New System.Drawing.Point(3, 233)
+        Me.AdminButton.Name = "AdminButton"
+        Me.AdminButton.Size = New System.Drawing.Size(216, 97)
+        Me.AdminButton.TabIndex = 11
+        Me.AdminButton.Text = "Agent Administratif"
+        Me.AdminButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.AdminButton.UseVisualStyleBackColor = False
         '
         'avertissemnt
         '
@@ -276,10 +276,10 @@ Partial Class Login
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1018, 709)
         Me.Controls.Add(Me.avertissemnt)
-        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.ConnexionPanel)
         Me.Controls.Add(Me.profile_photo_login)
         Me.Controls.Add(Me.logo)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.ModeDeConnexionPanel)
         Me.Controls.Add(Me.bagrd_ellipse)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -289,9 +289,9 @@ Partial Class Login
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
+        Me.ConnexionPanel.ResumeLayout(False)
+        Me.ConnexionPanel.PerformLayout()
+        Me.ModeDeConnexionPanel.ResumeLayout(False)
         Me.TypeDeConnexion.ResumeLayout(False)
         CType(Me.profile_photo_login, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.logo, System.ComponentModel.ISupportInitialize).EndInit()
@@ -300,21 +300,21 @@ Partial Class Login
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents ModeDeConnexionPanel As System.Windows.Forms.Panel
     Friend WithEvents logo As System.Windows.Forms.PictureBox
     Friend WithEvents bagrd_ellipse As System.Windows.Forms.PictureBox
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents ConnecterLabel As System.Windows.Forms.Label
     Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
     Friend WithEvents LineShape2 As Microsoft.VisualBasic.PowerPacks.LineShape
     Friend WithEvents LineShape1 As Microsoft.VisualBasic.PowerPacks.LineShape
     Friend WithEvents profile_photo_login As System.Windows.Forms.PictureBox
-    Friend WithEvents Panel2 As System.Windows.Forms.Panel
-    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents ConnexionPanel As System.Windows.Forms.Panel
+    Friend WithEvents MDP_Label As System.Windows.Forms.Label
     Friend WithEvents MotDePasseTextField As System.Windows.Forms.MaskedTextBox
     Friend WithEvents ConexionButton As System.Windows.Forms.Button
     Friend WithEvents TypeDeConnexion As System.Windows.Forms.GroupBox
-    Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
+    Friend WithEvents AgentButton As System.Windows.Forms.RadioButton
+    Friend WithEvents AdminButton As System.Windows.Forms.RadioButton
     Friend WithEvents avertissemnt As System.Windows.Forms.Label
 
 End Class
