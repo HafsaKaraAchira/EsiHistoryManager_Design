@@ -1,0 +1,10 @@
+D:\@SEMESTRE 4\Projet_G18\WindowsApplication1\WindowsApplication1\bin\Debug\EsistHistoryManagement.exe
+D:\@SEMESTRE 4\Projet_G18\WindowsApplication1\WindowsApplication1\bin\Debug\EsistHistoryManagement.pdb
+D:\@SEMESTRE 4\Projet_G18\WindowsApplication1\WindowsApplication1\bin\Debug\EsistHistoryManagement.xml
+D:\@SEMESTRE 4\Projet_G18\WindowsApplication1\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.Home.resources
+D:\@SEMESTRE 4\Projet_G18\WindowsApplication1\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.Login.resources
+D:\@SEMESTRE 4\Projet_G18\WindowsApplication1\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.Resources.resources
+D:\@SEMESTRE 4\Projet_G18\WindowsApplication1\WindowsApplication1\obj\x86\Debug\EsiHistoryManager.vbproj.GenerateResource.Cache
+D:\@SEMESTRE 4\Projet_G18\WindowsApplication1\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement.exe
+D:\@SEMESTRE 4\Projet_G18\WindowsApplication1\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement.xml
+D:\@SEMESTRE 4\Projet_G18\WindowsApplication1\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement.pdb
