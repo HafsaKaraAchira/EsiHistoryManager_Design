@@ -103,6 +103,7 @@ Partial Class Home
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.SideBar.SuspendLayout()
         Me.ProfilePane.SuspendLayout()
         CType(Me.mode_photo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -548,8 +549,8 @@ Partial Class Home
         'PN_FORUMRECH
         '
         Me.PN_FORUMRECH.AutoScroll = True
-        Me.PN_FORUMRECH.AutoScrollMargin = New System.Drawing.Size(10, 0)
         Me.PN_FORUMRECH.BackColor = System.Drawing.Color.Transparent
+        Me.PN_FORUMRECH.Controls.Add(Me.Panel1)
         Me.PN_FORUMRECH.Controls.Add(Me.Label2)
         Me.PN_FORUMRECH.Controls.Add(Me.BT_CANCELRECH)
         Me.PN_FORUMRECH.Controls.Add(Me.Label1)
@@ -619,7 +620,7 @@ Partial Class Home
         Me.BT_CANCELRECH.FlatAppearance.BorderSize = 0
         Me.BT_CANCELRECH.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BT_CANCELRECH.ForeColor = System.Drawing.Color.LightGray
-        Me.BT_CANCELRECH.Location = New System.Drawing.Point(11, 714)
+        Me.BT_CANCELRECH.Location = New System.Drawing.Point(27, 1280)
         Me.BT_CANCELRECH.Name = "BT_CANCELRECH"
         Me.BT_CANCELRECH.Size = New System.Drawing.Size(200, 40)
         Me.BT_CANCELRECH.TabIndex = 41
@@ -644,7 +645,7 @@ Partial Class Home
         Me.BT_LANCERRECH.FlatAppearance.BorderSize = 0
         Me.BT_LANCERRECH.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BT_LANCERRECH.ForeColor = System.Drawing.Color.LightGray
-        Me.BT_LANCERRECH.Location = New System.Drawing.Point(592, 714)
+        Me.BT_LANCERRECH.Location = New System.Drawing.Point(584, 1280)
         Me.BT_LANCERRECH.Name = "BT_LANCERRECH"
         Me.BT_LANCERRECH.Size = New System.Drawing.Size(200, 40)
         Me.BT_LANCERRECH.TabIndex = 40
@@ -655,7 +656,7 @@ Partial Class Home
         '
         Me.LB_SERI.AutoSize = True
         Me.LB_SERI.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_SERI.Location = New System.Drawing.Point(447, 585)
+        Me.LB_SERI.Location = New System.Drawing.Point(76, 1164)
         Me.LB_SERI.Name = "LB_SERI"
         Me.LB_SERI.Size = New System.Drawing.Size(96, 18)
         Me.LB_SERI.TabIndex = 39
@@ -665,7 +666,7 @@ Partial Class Home
         '
         Me.LB_WILAYAB.AutoSize = True
         Me.LB_WILAYAB.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_WILAYAB.Location = New System.Drawing.Point(447, 640)
+        Me.LB_WILAYAB.Location = New System.Drawing.Point(76, 1054)
         Me.LB_WILAYAB.Name = "LB_WILAYAB"
         Me.LB_WILAYAB.Size = New System.Drawing.Size(106, 18)
         Me.LB_WILAYAB.TabIndex = 38
@@ -675,7 +676,7 @@ Partial Class Home
         '
         Me.LB_CODEPOS.AutoSize = True
         Me.LB_CODEPOS.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_CODEPOS.Location = New System.Drawing.Point(57, 530)
+        Me.LB_CODEPOS.Location = New System.Drawing.Point(76, 999)
         Me.LB_CODEPOS.Name = "LB_CODEPOS"
         Me.LB_CODEPOS.Size = New System.Drawing.Size(93, 18)
         Me.LB_CODEPOS.TabIndex = 37
@@ -685,7 +686,7 @@ Partial Class Home
         '
         Me.LB_MOYBAC.AutoSize = True
         Me.LB_MOYBAC.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_MOYBAC.Location = New System.Drawing.Point(57, 585)
+        Me.LB_MOYBAC.Location = New System.Drawing.Point(76, 1109)
         Me.LB_MOYBAC.Name = "LB_MOYBAC"
         Me.LB_MOYBAC.Size = New System.Drawing.Size(123, 18)
         Me.LB_MOYBAC.TabIndex = 36
@@ -695,7 +696,7 @@ Partial Class Home
         '
         Me.LB_ANNEEB.AutoSize = True
         Me.LB_ANNEEB.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_ANNEEB.Location = New System.Drawing.Point(57, 640)
+        Me.LB_ANNEEB.Location = New System.Drawing.Point(76, 1220)
         Me.LB_ANNEEB.Name = "LB_ANNEEB"
         Me.LB_ANNEEB.Size = New System.Drawing.Size(103, 18)
         Me.LB_ANNEEB.TabIndex = 35
@@ -705,7 +706,7 @@ Partial Class Home
         '
         Me.LB_WILAYA.AutoSize = True
         Me.LB_WILAYA.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_WILAYA.Location = New System.Drawing.Point(447, 530)
+        Me.LB_WILAYA.Location = New System.Drawing.Point(76, 944)
         Me.LB_WILAYA.Name = "LB_WILAYA"
         Me.LB_WILAYA.Size = New System.Drawing.Size(106, 18)
         Me.LB_WILAYA.TabIndex = 34
@@ -714,10 +715,10 @@ Partial Class Home
         'LB_NOM
         '
         Me.LB_NOM.AutoSize = True
-        Me.LB_NOM.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_NOM.Location = New System.Drawing.Point(57, 200)
+        Me.LB_NOM.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LB_NOM.Location = New System.Drawing.Point(76, 284)
         Me.LB_NOM.Name = "LB_NOM"
-        Me.LB_NOM.Size = New System.Drawing.Size(41, 18)
+        Me.LB_NOM.Size = New System.Drawing.Size(44, 20)
         Me.LB_NOM.TabIndex = 33
         Me.LB_NOM.Text = "Nom"
         '
@@ -725,7 +726,7 @@ Partial Class Home
         '
         Me.LB_NOMA.AutoSize = True
         Me.LB_NOMA.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_NOMA.Location = New System.Drawing.Point(447, 200)
+        Me.LB_NOMA.Location = New System.Drawing.Point(76, 394)
         Me.LB_NOMA.Name = "LB_NOMA"
         Me.LB_NOMA.Size = New System.Drawing.Size(102, 18)
         Me.LB_NOMA.TabIndex = 32
@@ -735,7 +736,7 @@ Partial Class Home
         '
         Me.LB_PRENOMA.AutoSize = True
         Me.LB_PRENOMA.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_PRENOMA.Location = New System.Drawing.Point(447, 255)
+        Me.LB_PRENOMA.Location = New System.Drawing.Point(76, 449)
         Me.LB_PRENOMA.Name = "LB_PRENOMA"
         Me.LB_PRENOMA.Size = New System.Drawing.Size(122, 18)
         Me.LB_PRENOMA.TabIndex = 31
@@ -745,7 +746,7 @@ Partial Class Home
         '
         Me.LB_SEXE.AutoSize = True
         Me.LB_SEXE.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_SEXE.Location = New System.Drawing.Point(517, 310)
+        Me.LB_SEXE.Location = New System.Drawing.Point(76, 559)
         Me.LB_SEXE.Name = "LB_SEXE"
         Me.LB_SEXE.Size = New System.Drawing.Size(41, 18)
         Me.LB_SEXE.TabIndex = 30
@@ -755,7 +756,7 @@ Partial Class Home
         '
         Me.LB_LIEUNA.AutoSize = True
         Me.LB_LIEUNA.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_LIEUNA.Location = New System.Drawing.Point(447, 365)
+        Me.LB_LIEUNA.Location = New System.Drawing.Point(76, 669)
         Me.LB_LIEUNA.Name = "LB_LIEUNA"
         Me.LB_LIEUNA.Size = New System.Drawing.Size(187, 18)
         Me.LB_LIEUNA.TabIndex = 29
@@ -765,7 +766,7 @@ Partial Class Home
         '
         Me.LB_LIEUN.AutoSize = True
         Me.LB_LIEUN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_LIEUN.Location = New System.Drawing.Point(57, 365)
+        Me.LB_LIEUN.Location = New System.Drawing.Point(76, 614)
         Me.LB_LIEUN.Name = "LB_LIEUN"
         Me.LB_LIEUN.Size = New System.Drawing.Size(126, 18)
         Me.LB_LIEUN.TabIndex = 28
@@ -774,10 +775,10 @@ Partial Class Home
         'LB_PRENOM
         '
         Me.LB_PRENOM.AutoSize = True
-        Me.LB_PRENOM.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_PRENOM.Location = New System.Drawing.Point(57, 255)
+        Me.LB_PRENOM.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LB_PRENOM.Location = New System.Drawing.Point(76, 339)
         Me.LB_PRENOM.Name = "LB_PRENOM"
-        Me.LB_PRENOM.Size = New System.Drawing.Size(65, 18)
+        Me.LB_PRENOM.Size = New System.Drawing.Size(72, 20)
         Me.LB_PRENOM.TabIndex = 27
         Me.LB_PRENOM.Text = "Prenom "
         '
@@ -785,7 +786,7 @@ Partial Class Home
         '
         Me.LB_WILAYANA.AutoSize = True
         Me.LB_WILAYANA.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_WILAYANA.Location = New System.Drawing.Point(447, 420)
+        Me.LB_WILAYANA.Location = New System.Drawing.Point(76, 779)
         Me.LB_WILAYANA.Name = "LB_WILAYANA"
         Me.LB_WILAYANA.Size = New System.Drawing.Size(204, 18)
         Me.LB_WILAYANA.TabIndex = 26
@@ -795,7 +796,7 @@ Partial Class Home
         '
         Me.LB_DATEN.AutoSize = True
         Me.LB_DATEN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_DATEN.Location = New System.Drawing.Point(57, 310)
+        Me.LB_DATEN.Location = New System.Drawing.Point(76, 504)
         Me.LB_DATEN.Name = "LB_DATEN"
         Me.LB_DATEN.Size = New System.Drawing.Size(130, 18)
         Me.LB_DATEN.TabIndex = 25
@@ -805,7 +806,7 @@ Partial Class Home
         '
         Me.LB_WILAYAN.AutoSize = True
         Me.LB_WILAYAN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_WILAYAN.Location = New System.Drawing.Point(57, 420)
+        Me.LB_WILAYAN.Location = New System.Drawing.Point(76, 724)
         Me.LB_WILAYAN.Name = "LB_WILAYAN"
         Me.LB_WILAYAN.Size = New System.Drawing.Size(151, 18)
         Me.LB_WILAYAN.TabIndex = 24
@@ -815,7 +816,7 @@ Partial Class Home
         '
         Me.LB_VILLE.AutoSize = True
         Me.LB_VILLE.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_VILLE.Location = New System.Drawing.Point(547, 475)
+        Me.LB_VILLE.Location = New System.Drawing.Point(76, 889)
         Me.LB_VILLE.Name = "LB_VILLE"
         Me.LB_VILLE.Size = New System.Drawing.Size(88, 18)
         Me.LB_VILLE.TabIndex = 23
@@ -825,7 +826,7 @@ Partial Class Home
         '
         Me.LB_ADR.AutoSize = True
         Me.LB_ADR.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_ADR.Location = New System.Drawing.Point(57, 475)
+        Me.LB_ADR.Location = New System.Drawing.Point(76, 834)
         Me.LB_ADR.Name = "LB_ADR"
         Me.LB_ADR.Size = New System.Drawing.Size(105, 18)
         Me.LB_ADR.TabIndex = 22
@@ -834,20 +835,20 @@ Partial Class Home
         'LB_MATRICULB
         '
         Me.LB_MATRICULB.AutoSize = True
-        Me.LB_MATRICULB.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_MATRICULB.Location = New System.Drawing.Point(447, 145)
+        Me.LB_MATRICULB.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LB_MATRICULB.Location = New System.Drawing.Point(76, 229)
         Me.LB_MATRICULB.Name = "LB_MATRICULB"
-        Me.LB_MATRICULB.Size = New System.Drawing.Size(122, 18)
+        Me.LB_MATRICULB.Size = New System.Drawing.Size(141, 20)
         Me.LB_MATRICULB.TabIndex = 21
         Me.LB_MATRICULB.Text = "Matricule de BAC"
         '
         'LB_MATRICUL
         '
         Me.LB_MATRICUL.AutoSize = True
-        Me.LB_MATRICUL.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_MATRICUL.Location = New System.Drawing.Point(57, 145)
+        Me.LB_MATRICUL.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LB_MATRICUL.Location = New System.Drawing.Point(76, 174)
         Me.LB_MATRICUL.Name = "LB_MATRICUL"
-        Me.LB_MATRICUL.Size = New System.Drawing.Size(68, 18)
+        Me.LB_MATRICUL.Size = New System.Drawing.Size(78, 20)
         Me.LB_MATRICUL.TabIndex = 20
         Me.LB_MATRICUL.Text = "Matricule"
         '
@@ -855,70 +856,70 @@ Partial Class Home
         '
         Me.CB_WILAYAB.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CB_WILAYAB.FormattingEnabled = True
-        Me.CB_WILAYAB.Location = New System.Drawing.Point(447, 660)
+        Me.CB_WILAYAB.Location = New System.Drawing.Point(369, 1054)
         Me.CB_WILAYAB.Name = "CB_WILAYAB"
-        Me.CB_WILAYAB.Size = New System.Drawing.Size(300, 33)
+        Me.CB_WILAYAB.Size = New System.Drawing.Size(350, 33)
         Me.CB_WILAYAB.TabIndex = 19
         '
         'CB_ANNEEB
         '
         Me.CB_ANNEEB.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CB_ANNEEB.FormattingEnabled = True
-        Me.CB_ANNEEB.Location = New System.Drawing.Point(57, 660)
+        Me.CB_ANNEEB.Location = New System.Drawing.Point(369, 1220)
         Me.CB_ANNEEB.Name = "CB_ANNEEB"
-        Me.CB_ANNEEB.Size = New System.Drawing.Size(300, 33)
+        Me.CB_ANNEEB.Size = New System.Drawing.Size(350, 33)
         Me.CB_ANNEEB.TabIndex = 18
         '
         'CB_SERI
         '
         Me.CB_SERI.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CB_SERI.FormattingEnabled = True
-        Me.CB_SERI.Location = New System.Drawing.Point(447, 605)
+        Me.CB_SERI.Location = New System.Drawing.Point(369, 1164)
         Me.CB_SERI.Name = "CB_SERI"
-        Me.CB_SERI.Size = New System.Drawing.Size(300, 33)
+        Me.CB_SERI.Size = New System.Drawing.Size(350, 33)
         Me.CB_SERI.TabIndex = 17
         '
         'CB_WILAYA
         '
         Me.CB_WILAYA.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CB_WILAYA.FormattingEnabled = True
-        Me.CB_WILAYA.Location = New System.Drawing.Point(447, 550)
+        Me.CB_WILAYA.Location = New System.Drawing.Point(369, 944)
         Me.CB_WILAYA.Name = "CB_WILAYA"
-        Me.CB_WILAYA.Size = New System.Drawing.Size(300, 33)
+        Me.CB_WILAYA.Size = New System.Drawing.Size(350, 33)
         Me.CB_WILAYA.TabIndex = 16
         '
         'CB_WILAYANA
         '
         Me.CB_WILAYANA.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CB_WILAYANA.FormattingEnabled = True
-        Me.CB_WILAYANA.Location = New System.Drawing.Point(447, 440)
+        Me.CB_WILAYANA.Location = New System.Drawing.Point(369, 779)
         Me.CB_WILAYANA.Name = "CB_WILAYANA"
-        Me.CB_WILAYANA.Size = New System.Drawing.Size(300, 33)
+        Me.CB_WILAYANA.Size = New System.Drawing.Size(350, 33)
         Me.CB_WILAYANA.TabIndex = 15
         '
         'CB_WILAYAN
         '
         Me.CB_WILAYAN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CB_WILAYAN.FormattingEnabled = True
-        Me.CB_WILAYAN.Location = New System.Drawing.Point(57, 440)
+        Me.CB_WILAYAN.Location = New System.Drawing.Point(369, 724)
         Me.CB_WILAYAN.Name = "CB_WILAYAN"
-        Me.CB_WILAYAN.Size = New System.Drawing.Size(300, 33)
+        Me.CB_WILAYAN.Size = New System.Drawing.Size(350, 33)
         Me.CB_WILAYAN.TabIndex = 14
         '
         'CB_SEXE
         '
         Me.CB_SEXE.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CB_SEXE.FormattingEnabled = True
-        Me.CB_SEXE.Location = New System.Drawing.Point(517, 330)
+        Me.CB_SEXE.Location = New System.Drawing.Point(369, 559)
         Me.CB_SEXE.Name = "CB_SEXE"
-        Me.CB_SEXE.Size = New System.Drawing.Size(230, 33)
+        Me.CB_SEXE.Size = New System.Drawing.Size(204, 33)
         Me.CB_SEXE.TabIndex = 13
         '
         'DTP_DATEN
         '
         Me.DTP_DATEN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DTP_DATEN.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DTP_DATEN.Location = New System.Drawing.Point(57, 330)
+        Me.DTP_DATEN.Location = New System.Drawing.Point(369, 504)
         Me.DTP_DATEN.Name = "DTP_DATEN"
         Me.DTP_DATEN.Size = New System.Drawing.Size(350, 30)
         Me.DTP_DATEN.TabIndex = 12
@@ -926,97 +927,97 @@ Partial Class Home
         'TXT_NOM
         '
         Me.TXT_NOM.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_NOM.Location = New System.Drawing.Point(57, 220)
+        Me.TXT_NOM.Location = New System.Drawing.Point(369, 284)
         Me.TXT_NOM.Name = "TXT_NOM"
-        Me.TXT_NOM.Size = New System.Drawing.Size(300, 30)
+        Me.TXT_NOM.Size = New System.Drawing.Size(350, 30)
         Me.TXT_NOM.TabIndex = 11
         '
         'TextBox11
         '
         Me.TextBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox11.Location = New System.Drawing.Point(57, 275)
+        Me.TextBox11.Location = New System.Drawing.Point(369, 339)
         Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(300, 30)
+        Me.TextBox11.Size = New System.Drawing.Size(350, 30)
         Me.TextBox11.TabIndex = 10
         '
         'TXT_NOMA
         '
         Me.TXT_NOMA.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_NOMA.Location = New System.Drawing.Point(447, 220)
+        Me.TXT_NOMA.Location = New System.Drawing.Point(369, 394)
         Me.TXT_NOMA.Name = "TXT_NOMA"
-        Me.TXT_NOMA.Size = New System.Drawing.Size(300, 30)
+        Me.TXT_NOMA.Size = New System.Drawing.Size(350, 30)
         Me.TXT_NOMA.TabIndex = 9
         '
         'TXT_PRENOMA
         '
         Me.TXT_PRENOMA.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_PRENOMA.Location = New System.Drawing.Point(447, 275)
+        Me.TXT_PRENOMA.Location = New System.Drawing.Point(369, 449)
         Me.TXT_PRENOMA.Name = "TXT_PRENOMA"
-        Me.TXT_PRENOMA.Size = New System.Drawing.Size(300, 30)
+        Me.TXT_PRENOMA.Size = New System.Drawing.Size(350, 30)
         Me.TXT_PRENOMA.TabIndex = 8
         '
         'TXT_LIEUN
         '
         Me.TXT_LIEUN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_LIEUN.Location = New System.Drawing.Point(57, 385)
+        Me.TXT_LIEUN.Location = New System.Drawing.Point(369, 614)
         Me.TXT_LIEUN.Name = "TXT_LIEUN"
-        Me.TXT_LIEUN.Size = New System.Drawing.Size(300, 30)
+        Me.TXT_LIEUN.Size = New System.Drawing.Size(350, 30)
         Me.TXT_LIEUN.TabIndex = 7
         '
         'TXT_LIEUNA
         '
         Me.TXT_LIEUNA.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_LIEUNA.Location = New System.Drawing.Point(447, 385)
+        Me.TXT_LIEUNA.Location = New System.Drawing.Point(369, 669)
         Me.TXT_LIEUNA.Name = "TXT_LIEUNA"
-        Me.TXT_LIEUNA.Size = New System.Drawing.Size(300, 30)
+        Me.TXT_LIEUNA.Size = New System.Drawing.Size(350, 30)
         Me.TXT_LIEUNA.TabIndex = 6
         '
         'TXT_ADR
         '
         Me.TXT_ADR.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_ADR.Location = New System.Drawing.Point(57, 495)
+        Me.TXT_ADR.Location = New System.Drawing.Point(369, 834)
         Me.TXT_ADR.Name = "TXT_ADR"
-        Me.TXT_ADR.Size = New System.Drawing.Size(400, 30)
+        Me.TXT_ADR.Size = New System.Drawing.Size(350, 30)
         Me.TXT_ADR.TabIndex = 5
         '
         'TXT_VILLE
         '
         Me.TXT_VILLE.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_VILLE.Location = New System.Drawing.Point(547, 495)
+        Me.TXT_VILLE.Location = New System.Drawing.Point(369, 889)
         Me.TXT_VILLE.Name = "TXT_VILLE"
-        Me.TXT_VILLE.Size = New System.Drawing.Size(200, 30)
+        Me.TXT_VILLE.Size = New System.Drawing.Size(350, 30)
         Me.TXT_VILLE.TabIndex = 4
         '
         'TXT_CODEPOS
         '
         Me.TXT_CODEPOS.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_CODEPOS.Location = New System.Drawing.Point(57, 550)
+        Me.TXT_CODEPOS.Location = New System.Drawing.Point(369, 999)
         Me.TXT_CODEPOS.Name = "TXT_CODEPOS"
-        Me.TXT_CODEPOS.Size = New System.Drawing.Size(300, 30)
+        Me.TXT_CODEPOS.Size = New System.Drawing.Size(350, 30)
         Me.TXT_CODEPOS.TabIndex = 3
         '
         'TXT_MOYBAC
         '
         Me.TXT_MOYBAC.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_MOYBAC.Location = New System.Drawing.Point(57, 605)
+        Me.TXT_MOYBAC.Location = New System.Drawing.Point(369, 1109)
         Me.TXT_MOYBAC.Name = "TXT_MOYBAC"
-        Me.TXT_MOYBAC.Size = New System.Drawing.Size(300, 30)
+        Me.TXT_MOYBAC.Size = New System.Drawing.Size(350, 30)
         Me.TXT_MOYBAC.TabIndex = 2
         '
         'TXT_MATRICULB
         '
         Me.TXT_MATRICULB.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_MATRICULB.Location = New System.Drawing.Point(447, 165)
+        Me.TXT_MATRICULB.Location = New System.Drawing.Point(369, 224)
         Me.TXT_MATRICULB.Name = "TXT_MATRICULB"
-        Me.TXT_MATRICULB.Size = New System.Drawing.Size(300, 30)
+        Me.TXT_MATRICULB.Size = New System.Drawing.Size(350, 30)
         Me.TXT_MATRICULB.TabIndex = 1
         '
         'TXT_MATRICUL
         '
         Me.TXT_MATRICUL.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_MATRICUL.Location = New System.Drawing.Point(57, 165)
+        Me.TXT_MATRICUL.Location = New System.Drawing.Point(369, 169)
         Me.TXT_MATRICUL.Name = "TXT_MATRICUL"
-        Me.TXT_MATRICUL.Size = New System.Drawing.Size(300, 30)
+        Me.TXT_MATRICUL.Size = New System.Drawing.Size(350, 30)
         Me.TXT_MATRICUL.TabIndex = 0
         '
         'PN_BIENVENUE
@@ -1050,7 +1051,7 @@ Partial Class Home
         Me.OvalShape3.FillColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.OvalShape3.FillGradientColor = System.Drawing.Color.Transparent
         Me.OvalShape3.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.OvalShape3.Location = New System.Drawing.Point(243, 583)
+        Me.OvalShape3.Location = New System.Drawing.Point(228, 487)
         Me.OvalShape3.Name = "OvalShape3"
         Me.OvalShape3.Size = New System.Drawing.Size(29, 26)
         '
@@ -1060,7 +1061,7 @@ Partial Class Home
         Me.OvalShape2.FillColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.OvalShape2.FillGradientColor = System.Drawing.Color.Transparent
         Me.OvalShape2.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.OvalShape2.Location = New System.Drawing.Point(64, 641)
+        Me.OvalShape2.Location = New System.Drawing.Point(75, 523)
         Me.OvalShape2.Name = "OvalShape2"
         Me.OvalShape2.Size = New System.Drawing.Size(125, 101)
         '
@@ -1128,6 +1129,13 @@ Partial Class Home
         Me.Label8.TabIndex = 6
         Me.Label8.Text = "il existe un guide en ligne, vous pouvez le consulter *__*"
         '
+        'Panel1
+        '
+        Me.Panel1.Location = New System.Drawing.Point(244, 1319)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(313, 22)
+        Me.Panel1.TabIndex = 42
+        '
         'Home
         '
         Me.AcceptButton = Me.MenuButton
@@ -1137,13 +1145,13 @@ Partial Class Home
         Me.BackgroundImage = Global.EsistHistoryManagement_v1.My.Resources.Resources.background
         Me.CancelButton = Me.BT_LOGOUT
         Me.ClientSize = New System.Drawing.Size(1341, 850)
-        Me.Controls.Add(Me.PN_FORUMRECH)
         Me.Controls.Add(Me.MenuButton)
         Me.Controls.Add(Me.SideBar)
         Me.Controls.Add(Me.NavBar)
         Me.Controls.Add(Me.logo_bleu)
         Me.Controls.Add(Me.ProfilePane)
         Me.Controls.Add(Me.PN_BIENVENUE)
+        Me.Controls.Add(Me.PN_FORUMRECH)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.MaximumSize = New System.Drawing.Size(1359, 897)
@@ -1246,5 +1254,6 @@ Partial Class Home
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
 
 End Class
