@@ -57,11 +57,15 @@
             SideBar.Width = 185
             NavBar.Width = 666
             NavBar.Location = New System.Drawing.Point(188, 639)
+            Me.PN_BIENVENUE.Location = New System.Drawing.Point(160, 4)
         Else
             SideBar.Width = 55
             NavBar.Width = 795
             NavBar.Location = New System.Drawing.Point(58, 639)
+            Me.PN_BIENVENUE.Location = New System.Drawing.Point(95, 4)
         End If
+
+
     End Sub
 
 
@@ -158,10 +162,19 @@
     End Sub
 
     Private Sub HelpButton_MouseHover(ByVal sender As Object, ByVal e As System.EventArgs) Handles HelpButton.MouseHover
-        HelpButton.BackColor = Color.Pink
+        HelpButton.BackColor = Color.FromKnownColor(KnownColor.ActiveCaption)
+
     End Sub
 
     Private Sub HelpButton_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles HelpButton.MouseLeave
         HelpButton.BackColor = Color.Transparent
     End Sub
+
+    Private Sub BT_RECH_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BT_RECH.Click
+        Me.PN_FORUMRECH.Visible = True
+        Me.PN_BIENVENUE.Visible = False
+
+    End Sub
+
+   
 End Class
