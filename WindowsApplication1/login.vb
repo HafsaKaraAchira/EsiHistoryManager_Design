@@ -1,9 +1,9 @@
 ﻿Public Class Login
 
     Public Const _agent_mdp As String = "agent"
-    Public Const _admin_mdp As String = "admin"
+    Public Const _admin_mdp As String = "admin"     ' the two passwords
 
-    Function Connexion(ByVal mdp As String) As Boolean
+    Function Connexion(ByVal mdp As String) As Boolean ' fnction that return the responce to the password according to the mode of connexion
         Dim correct As Boolean = False
         If AgentButton.Checked Then
             If mdp = "agent" Then
@@ -20,14 +20,15 @@
     End Function
 
 
-
+    'a function that determine the mode of connexion
     Private Sub RadioButton1_CheckedChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles AgentButton.CheckedChanged
+
         If AgentButton.Checked Then
             Me.profile_photo_login.Image = My.Resources.user_profile
             AgentButton.ForeColor = Color.Pink
             AgentButton.Image = My.Resources.Rectangle_rose
 
-            AdminButton.ForeColor = Color.LavenderBlush
+            AdminButton.ForeColor = Color.LavenderBlush                     ' change the appearance of the two radioButton according to the user' selection
             AdminButton.Image = My.Resources.Rectangle_blanc
 
         ElseIf AdminButton.Checked Then
@@ -41,6 +42,7 @@
         End If
     End Sub
 
+    ' a function to show the responce to the connexion request ( launch the home page or the error message )
     Private Sub ConexionButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ConexionButton.Click
         If Connexion(Me.MotDePasseTextField.Text) Then
             Home.Show()
@@ -50,16 +52,14 @@
 
     End Sub
 
+    ' handle the appearnace when focusing on the password input
     Private Sub MotDePasseTextField_GotFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles MotDePasseTextField.GotFocus, MotDePasseTextField.TextChanged, MotDePasseTextField.Click
         Me.avertissemnt.Visible = False
     End Sub
-
+    ' initialize the mode of connexion to agent when entering the application 
     Private Sub Login_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         AgentButton.Checked = True
 
     End Sub
 
-    Private Sub Panel1_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles ModeDeConnexionPanel.Paint
-
-    End Sub
 End Class
