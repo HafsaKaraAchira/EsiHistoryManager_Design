@@ -1,4 +1,4 @@
-﻿Public Class Recherche
+﻿Public Class Rechercher
 
     ' initialize the language button in the search form
     Private Sub ARButton_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ARButton1.CheckedChanged

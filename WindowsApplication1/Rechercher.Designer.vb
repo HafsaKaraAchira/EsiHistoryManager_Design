@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Recherche
+Partial Class Rechercher
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,7 +23,7 @@ Partial Class Recherche
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Recherche))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Rechercher))
         Me.RechIntroPanel = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -33,6 +33,7 @@ Partial Class Recherche
         Me.generalesGroupBox = New System.Windows.Forms.GroupBox()
         Me.LanguagePanel1 = New System.Windows.Forms.Panel()
         Me.ARButton1 = New System.Windows.Forms.RadioButton()
+        Me.FlecheList = New System.Windows.Forms.ImageList(Me.components)
         Me.FRButton1 = New System.Windows.Forms.RadioButton()
         Me.LB_MATRICUL = New System.Windows.Forms.Label()
         Me.TXT_MATRICUL = New System.Windows.Forms.TextBox()
@@ -82,7 +83,6 @@ Partial Class Recherche
         Me.CB_WILAYAB = New System.Windows.Forms.ComboBox()
         Me.LB_ANNEEB = New System.Windows.Forms.Label()
         Me.PN_FORUMRECH = New System.Windows.Forms.Panel()
-        Me.FlecheList = New System.Windows.Forms.ImageList(Me.components)
         Me.RechIntroPanel.SuspendLayout()
         Me.RechButtons.SuspendLayout()
         Me.generalesGroupBox.SuspendLayout()
@@ -147,7 +147,7 @@ Partial Class Recherche
         Me.RechButtons.Controls.Add(Me.BT_CANCELRECH)
         Me.RechButtons.Location = New System.Drawing.Point(12, 1030)
         Me.RechButtons.Name = "RechButtons"
-        Me.RechButtons.Size = New System.Drawing.Size(611, 100)
+        Me.RechButtons.Size = New System.Drawing.Size(594, 100)
         Me.RechButtons.TabIndex = 44
         '
         'BT_LANCERRECH
@@ -232,6 +232,13 @@ Partial Class Recherche
         Me.ARButton1.TabStop = True
         Me.ARButton1.Text = "AR"
         Me.ARButton1.UseVisualStyleBackColor = False
+        '
+        'FlecheList
+        '
+        Me.FlecheList.ImageStream = CType(resources.GetObject("FlecheList.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.FlecheList.TransparentColor = System.Drawing.Color.Transparent
+        Me.FlecheList.Images.SetKeyName(0, "fleche ascendant.png")
+        Me.FlecheList.Images.SetKeyName(1, "fleche decendant.png")
         '
         'FRButton1
         '
@@ -836,14 +843,7 @@ Partial Class Recherche
         Me.PN_FORUMRECH.Size = New System.Drawing.Size(678, 640)
         Me.PN_FORUMRECH.TabIndex = 11
         '
-        'FlecheList
-        '
-        Me.FlecheList.ImageStream = CType(resources.GetObject("FlecheList.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.FlecheList.TransparentColor = System.Drawing.Color.Transparent
-        Me.FlecheList.Images.SetKeyName(0, "fleche ascendant.png")
-        Me.FlecheList.Images.SetKeyName(1, "fleche decendant.png")
-        '
-        'Recherche
+        'Rechercher
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit
         Me.AutoSize = True
@@ -851,7 +851,7 @@ Partial Class Recherche
         Me.Controls.Add(Me.PN_FORUMRECH)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximizeBox = False
-        Me.Name = "Recherche"
+        Me.Name = "Rechercher"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.TopMost = True
         Me.WindowState = System.Windows.Forms.FormWindowState.Minimized

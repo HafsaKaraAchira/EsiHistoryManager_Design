@@ -217,7 +217,7 @@
     Private Sub BT_RECH_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BT_RECH.Click
 
         Me.PN_BIENVENUE.Visible = False 'hide the acceuil pane
-        f = New Recherche()         ' assign the search form to  the f form
+        f = New Rechercher()         ' assign the search form to  the f form
         f.TopLevel = False
         'f.TopMost = True
         f.WindowState = FormWindowState.Normal
