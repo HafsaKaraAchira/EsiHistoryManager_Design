@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="LineShape2.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>150, 130, 70, 0</value>
+    <value>224, 130, 70, 0</value>
   </metadata>
   <metadata name="LineShape2.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>150, 130</value>
+    <value>224, 130</value>
   </metadata>
   <metadata name="LineShape2.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>70, 0</value>
@@ -138,16 +138,14 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="AgentButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAAQAAAD6CAYAAACGaeYXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAArSURBVFhH7cghAQAACAAg/88wuswXWl1gIlCIrpxLCCGEEEIIIYQQ4ilyFrGdf+0dakOZAAAA
-        AElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAAQAAAD6CAYAAACGaeYXAAAABGdBTUEAALGPC/xhBQAAACtJREFUWEft
+        yCEBAAAIACD/zzC6zBdaXWAiUIiunEsIIYQQQgghhBDiKXIWsZ1/7R1qQ5kAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="AdminButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAAQAAAD2CAYAAADxqyZsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAApSURBVFhH7cghAQAACAMw+id8m2ORBJiY2STpJYQQQgghhBBCCPGIdAHt34+sq9dh5QAAAABJ
-        RU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAAQAAAD2CAYAAADxqyZsAAAABGdBTUEAALGPC/xhBQAAAClJREFUWEft
+        yCEBAAAIAzD6J3ybY5EEmJjZJOklhBBCCCGEEEII8Yh0Ae3fj6yr12HlAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="TypeDeConnexion.Text" xml:space="preserve">

@@ -15,6 +15,14 @@ EsistHistoryManagement
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._039_alert">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources._039_alert1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:EsistHistoryManagement_v1.My.Resources.Resources.admin_mode">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

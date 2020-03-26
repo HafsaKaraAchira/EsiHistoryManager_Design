@@ -228,6 +228,9 @@
 
     End Sub
 
+    Private Sub BT_modif_mdp_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BT_modif_mdp.Click
+        modifpassword.Show()
+    End Sub
 End Class
 
 

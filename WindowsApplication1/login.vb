@@ -1,7 +1,7 @@
 ﻿Public Class Login
 
-    Public Const _agent_mdp As String = "agent"
-    Public Const _admin_mdp As String = "admin"     ' the two passwords
+    Public _agent_mdp As String = "agent"
+    Public _admin_mdp As String = "admin"     ' the two passwords
 
     Function Connexion(ByVal mdp As String) As Boolean ' fnction that return the responce to the password according to the mode of connexion
         Dim correct As Boolean = False
@@ -61,5 +61,4 @@
         AgentButton.Checked = True
 
     End Sub
-
 End Class

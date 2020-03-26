@@ -77,6 +77,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Critere.vb" />
+    <Compile Include="modifpassword.Designer.vb">
+      <DependentUpon>modifpassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modifpassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Rechercher.Designer.vb">
       <DependentUpon>Rechercher.vb</DependentUpon>
     </Compile>
@@ -113,6 +120,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="modifpassword.resx">
+      <DependentUpon>modifpassword.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Rechercher.resx">
       <DependentUpon>Rechercher.vb</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +154,8 @@
     <None Include="Resources\user profile.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\039-alert1.png" />
+    <None Include="Resources\039-alert.png" />
     <None Include="Resources\diagram_bl.png" />
     <None Include="Resources\Rectangle_rose.png" />
     <None Include="Resources\Rectangle_blanc.png" />
