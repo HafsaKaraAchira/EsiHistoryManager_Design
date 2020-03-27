@@ -55,22 +55,20 @@ Partial Class modifpassword
         Me.avertissemnt.AutoSize = True
         Me.avertissemnt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.avertissemnt.ForeColor = System.Drawing.Color.Red
-        Me.avertissemnt.Location = New System.Drawing.Point(409, 794)
-        Me.avertissemnt.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.avertissemnt.Location = New System.Drawing.Point(307, 645)
         Me.avertissemnt.Name = "avertissemnt"
-        Me.avertissemnt.Size = New System.Drawing.Size(423, 25)
+        Me.avertissemnt.Size = New System.Drawing.Size(348, 20)
         Me.avertissemnt.TabIndex = 10
         Me.avertissemnt.Text = "Mot de passe errone ! ressayez a nouveau"
         Me.avertissemnt.Visible = False
         '
         'profile_photo_login
         '
-        Me.profile_photo_login.BackColor = System.Drawing.Color.Gainsboro
+        Me.profile_photo_login.BackColor = System.Drawing.Color.Transparent
         Me.profile_photo_login.Image = CType(resources.GetObject("profile_photo_login.Image"), System.Drawing.Image)
-        Me.profile_photo_login.Location = New System.Drawing.Point(1063, 294)
-        Me.profile_photo_login.Margin = New System.Windows.Forms.Padding(4)
+        Me.profile_photo_login.Location = New System.Drawing.Point(814, 209)
         Me.profile_photo_login.Name = "profile_photo_login"
-        Me.profile_photo_login.Size = New System.Drawing.Size(241, 245)
+        Me.profile_photo_login.Size = New System.Drawing.Size(181, 199)
         Me.profile_photo_login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.profile_photo_login.TabIndex = 8
         Me.profile_photo_login.TabStop = False
@@ -78,10 +76,9 @@ Partial Class modifpassword
         'logo
         '
         Me.logo.Image = Global.EsistHistoryManagement_v1.My.Resources.Resources.logo
-        Me.logo.Location = New System.Drawing.Point(414, 22)
-        Me.logo.Margin = New System.Windows.Forms.Padding(4)
+        Me.logo.Location = New System.Drawing.Point(351, 0)
         Me.logo.Name = "logo"
-        Me.logo.Size = New System.Drawing.Size(483, 250)
+        Me.logo.Size = New System.Drawing.Size(321, 157)
         Me.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.logo.TabIndex = 7
         Me.logo.TabStop = False
@@ -93,10 +90,9 @@ Partial Class modifpassword
         Me.ModeDeConnexionPanel.Controls.Add(Me.ShapeContainer1)
         Me.ModeDeConnexionPanel.Controls.Add(Me.TypeDeConnexion)
         Me.ModeDeConnexionPanel.ForeColor = System.Drawing.Color.DarkBlue
-        Me.ModeDeConnexionPanel.Location = New System.Drawing.Point(53, -12)
-        Me.ModeDeConnexionPanel.Margin = New System.Windows.Forms.Padding(4)
+        Me.ModeDeConnexionPanel.Location = New System.Drawing.Point(40, 0)
         Me.ModeDeConnexionPanel.Name = "ModeDeConnexionPanel"
-        Me.ModeDeConnexionPanel.Size = New System.Drawing.Size(296, 896)
+        Me.ModeDeConnexionPanel.Size = New System.Drawing.Size(222, 728)
         Me.ModeDeConnexionPanel.TabIndex = 6
         '
         'ConnecterLabel
@@ -106,10 +102,9 @@ Partial Class modifpassword
         Me.ConnecterLabel.BackColor = System.Drawing.Color.Transparent
         Me.ConnecterLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ConnecterLabel.ForeColor = System.Drawing.Color.Transparent
-        Me.ConnecterLabel.Location = New System.Drawing.Point(0, 34)
-        Me.ConnecterLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.ConnecterLabel.Location = New System.Drawing.Point(0, 28)
         Me.ConnecterLabel.Name = "ConnecterLabel"
-        Me.ConnecterLabel.Size = New System.Drawing.Size(296, 117)
+        Me.ConnecterLabel.Size = New System.Drawing.Size(222, 95)
         Me.ConnecterLabel.TabIndex = 0
         Me.ConnecterLabel.Text = "Connecter en tant que"
         Me.ConnecterLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -120,7 +115,7 @@ Partial Class modifpassword
         Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer1.Name = "ShapeContainer1"
         Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape2, Me.LineShape1})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(296, 896)
+        Me.ShapeContainer1.Size = New System.Drawing.Size(222, 728)
         Me.ShapeContainer1.TabIndex = 1
         Me.ShapeContainer1.TabStop = False
         '
@@ -131,8 +126,8 @@ Partial Class modifpassword
         Me.LineShape2.BorderWidth = 4
         Me.LineShape2.Name = "LineShape2"
         Me.LineShape2.SelectionColor = System.Drawing.SystemColors.ControlLightLight
-        Me.LineShape2.X1 = 224
-        Me.LineShape2.X2 = 294
+        Me.LineShape2.X1 = 150
+        Me.LineShape2.X2 = 220
         Me.LineShape2.Y1 = 130
         Me.LineShape2.Y2 = 130
         '
@@ -157,11 +152,9 @@ Partial Class modifpassword
         Me.TypeDeConnexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.TypeDeConnexion.Font = New System.Drawing.Font("Microsoft Sans Serif", 0.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TypeDeConnexion.ForeColor = System.Drawing.Color.Transparent
-        Me.TypeDeConnexion.Location = New System.Drawing.Point(0, 160)
-        Me.TypeDeConnexion.Margin = New System.Windows.Forms.Padding(4)
+        Me.TypeDeConnexion.Location = New System.Drawing.Point(0, 130)
         Me.TypeDeConnexion.Name = "TypeDeConnexion"
-        Me.TypeDeConnexion.Padding = New System.Windows.Forms.Padding(4)
-        Me.TypeDeConnexion.Size = New System.Drawing.Size(296, 736)
+        Me.TypeDeConnexion.Size = New System.Drawing.Size(222, 598)
         Me.TypeDeConnexion.TabIndex = 2
         Me.TypeDeConnexion.TabStop = False
         Me.TypeDeConnexion.Text = resources.GetString("TypeDeConnexion.Text")
@@ -182,10 +175,9 @@ Partial Class modifpassword
         Me.AgentButton.ForeColor = System.Drawing.Color.Pink
         Me.AgentButton.Image = CType(resources.GetObject("AgentButton.Image"), System.Drawing.Image)
         Me.AgentButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.AgentButton.Location = New System.Drawing.Point(4, 134)
-        Me.AgentButton.Margin = New System.Windows.Forms.Padding(4)
+        Me.AgentButton.Location = New System.Drawing.Point(3, 109)
         Me.AgentButton.Name = "AgentButton"
-        Me.AgentButton.Size = New System.Drawing.Size(288, 118)
+        Me.AgentButton.Size = New System.Drawing.Size(216, 96)
         Me.AgentButton.TabIndex = 10
         Me.AgentButton.Text = "Agent"
         Me.AgentButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -209,10 +201,9 @@ Partial Class modifpassword
         Me.AdminButton.ForeColor = System.Drawing.Color.LavenderBlush
         Me.AdminButton.Image = CType(resources.GetObject("AdminButton.Image"), System.Drawing.Image)
         Me.AdminButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.AdminButton.Location = New System.Drawing.Point(4, 287)
-        Me.AdminButton.Margin = New System.Windows.Forms.Padding(4)
+        Me.AdminButton.Location = New System.Drawing.Point(3, 233)
         Me.AdminButton.Name = "AdminButton"
-        Me.AdminButton.Size = New System.Drawing.Size(288, 119)
+        Me.AdminButton.Size = New System.Drawing.Size(216, 97)
         Me.AdminButton.TabIndex = 11
         Me.AdminButton.Text = "Agent Administratif"
         Me.AdminButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -228,9 +219,10 @@ Partial Class modifpassword
         Me.Panel1.Controls.Add(Me.TXT_Password)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(356, 294)
+        Me.Panel1.Location = New System.Drawing.Point(278, 166)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(641, 480)
+        Me.Panel1.Size = New System.Drawing.Size(525, 440)
         Me.Panel1.TabIndex = 11
         '
         'changer
@@ -238,11 +230,12 @@ Partial Class modifpassword
         Me.changer.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
         Me.changer.FlatAppearance.BorderSize = 0
         Me.changer.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.changer.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.changer.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.changer.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.changer.Location = New System.Drawing.Point(183, 394)
+        Me.changer.Location = New System.Drawing.Point(175, 356)
+        Me.changer.Margin = New System.Windows.Forms.Padding(2)
         Me.changer.Name = "changer"
-        Me.changer.Size = New System.Drawing.Size(233, 47)
+        Me.changer.Size = New System.Drawing.Size(175, 38)
         Me.changer.TabIndex = 9
         Me.changer.Text = "Changer"
         Me.changer.UseVisualStyleBackColor = False
@@ -250,48 +243,53 @@ Partial Class modifpassword
         'TXT_PasswordNC
         '
         Me.TXT_PasswordNC.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_PasswordNC.Location = New System.Drawing.Point(336, 320)
+        Me.TXT_PasswordNC.Location = New System.Drawing.Point(276, 260)
+        Me.TXT_PasswordNC.Margin = New System.Windows.Forms.Padding(2)
         Me.TXT_PasswordNC.Name = "TXT_PasswordNC"
         Me.TXT_PasswordNC.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TXT_PasswordNC.Size = New System.Drawing.Size(300, 34)
+        Me.TXT_PasswordNC.Size = New System.Drawing.Size(226, 28)
         Me.TXT_PasswordNC.TabIndex = 8
         '
         'TXT_PasswordN
         '
         Me.TXT_PasswordN.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_PasswordN.Location = New System.Drawing.Point(336, 250)
+        Me.TXT_PasswordN.Location = New System.Drawing.Point(276, 193)
+        Me.TXT_PasswordN.Margin = New System.Windows.Forms.Padding(2)
         Me.TXT_PasswordN.Name = "TXT_PasswordN"
         Me.TXT_PasswordN.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TXT_PasswordN.Size = New System.Drawing.Size(300, 34)
+        Me.TXT_PasswordN.Size = New System.Drawing.Size(226, 28)
         Me.TXT_PasswordN.TabIndex = 7
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(9, 320)
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(7, 260)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(309, 24)
+        Me.Label6.Size = New System.Drawing.Size(259, 20)
         Me.Label6.TabIndex = 6
         Me.Label6.Text = "Confirmer le nouveau mot de passe"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(9, 250)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(7, 193)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(205, 24)
+        Me.Label5.Size = New System.Drawing.Size(172, 20)
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "Nouveau mot de passe"
         '
         'TXT_Password
         '
         Me.TXT_Password.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TXT_Password.Location = New System.Drawing.Point(336, 150)
+        Me.TXT_Password.Location = New System.Drawing.Point(276, 121)
+        Me.TXT_Password.Margin = New System.Windows.Forms.Padding(2)
         Me.TXT_Password.Name = "TXT_Password"
         Me.TXT_Password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TXT_Password.Size = New System.Drawing.Size(300, 34)
+        Me.TXT_Password.Size = New System.Drawing.Size(226, 28)
         Me.TXT_Password.TabIndex = 4
         '
         'Label4
@@ -299,28 +297,30 @@ Partial Class modifpassword
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Times New Roman", 22.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(104, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(109, 23)
+        Me.Label4.Location = New System.Drawing.Point(82, 19)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(407, 44)
+        Me.Label4.Size = New System.Drawing.Size(319, 34)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Changer le mot de passe"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(9, 150)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(7, 122)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(178, 24)
+        Me.Label1.Size = New System.Drawing.Size(152, 20)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Mot de passe actuel"
         '
         'modifpassword
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1357, 873)
+        Me.ClientSize = New System.Drawing.Size(1018, 649)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.avertissemnt)
         Me.Controls.Add(Me.profile_photo_login)
@@ -328,12 +328,13 @@ Partial Class modifpassword
         Me.Controls.Add(Me.ModeDeConnexionPanel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.MaximumSize = New System.Drawing.Size(1363, 937)
+        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.MaximumSize = New System.Drawing.Size(1024, 767)
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(1363, 885)
+        Me.MinimumSize = New System.Drawing.Size(1024, 595)
         Me.Name = "modifpassword"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "modifpassword"
+        Me.Text = "Changer le mot de passe"
         CType(Me.profile_photo_login, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.logo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ModeDeConnexionPanel.ResumeLayout(False)

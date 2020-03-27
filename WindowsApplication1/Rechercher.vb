@@ -166,7 +166,7 @@
                 .FlatStyle = FlatStyle.Popup
             End With
             With LB_WILAYANA
-                .Text = "Code de Wilaya de naissance en Francais"
+                .Text = "Wilaya de naissance en Francais"
             End With
 
             With CB_WILAYAN

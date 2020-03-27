@@ -52,10 +52,9 @@ Partial Class Login
         Me.ConnexionPanel.Controls.Add(Me.ConexionButton)
         Me.ConnexionPanel.Controls.Add(Me.MotDePasseTextField)
         Me.ConnexionPanel.Controls.Add(Me.MDP_Label)
-        Me.ConnexionPanel.Location = New System.Drawing.Point(401, 421)
-        Me.ConnexionPanel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ConnexionPanel.Location = New System.Drawing.Point(301, 342)
         Me.ConnexionPanel.Name = "ConnexionPanel"
-        Me.ConnexionPanel.Size = New System.Drawing.Size(512, 257)
+        Me.ConnexionPanel.Size = New System.Drawing.Size(384, 209)
         Me.ConnexionPanel.TabIndex = 4
         '
         'ConexionButton
@@ -67,10 +66,9 @@ Partial Class Login
         Me.ConexionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ConexionButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ConexionButton.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ConexionButton.Location = New System.Drawing.Point(4, 175)
-        Me.ConexionButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ConexionButton.Location = New System.Drawing.Point(3, 142)
         Me.ConexionButton.Name = "ConexionButton"
-        Me.ConexionButton.Size = New System.Drawing.Size(455, 68)
+        Me.ConexionButton.Size = New System.Drawing.Size(341, 55)
         Me.ConexionButton.TabIndex = 2
         Me.ConexionButton.Text = "Connecter"
         Me.ConexionButton.UseVisualStyleBackColor = False
@@ -79,11 +77,10 @@ Partial Class Login
         '
         Me.MotDePasseTextField.BeepOnError = True
         Me.MotDePasseTextField.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MotDePasseTextField.Location = New System.Drawing.Point(8, 96)
-        Me.MotDePasseTextField.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.MotDePasseTextField.Location = New System.Drawing.Point(6, 78)
         Me.MotDePasseTextField.Name = "MotDePasseTextField"
         Me.MotDePasseTextField.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.MotDePasseTextField.Size = New System.Drawing.Size(449, 45)
+        Me.MotDePasseTextField.Size = New System.Drawing.Size(338, 38)
         Me.MotDePasseTextField.TabIndex = 1
         Me.MotDePasseTextField.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.MotDePasseTextField.UseSystemPasswordChar = True
@@ -94,10 +91,10 @@ Partial Class Login
         Me.MDP_Label.Dock = System.Windows.Forms.DockStyle.Top
         Me.MDP_Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MDP_Label.Location = New System.Drawing.Point(0, 0)
-        Me.MDP_Label.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.MDP_Label.Margin = New System.Windows.Forms.Padding(3)
         Me.MDP_Label.Name = "MDP_Label"
-        Me.MDP_Label.Padding = New System.Windows.Forms.Padding(11, 0, 0, 0)
-        Me.MDP_Label.Size = New System.Drawing.Size(512, 63)
+        Me.MDP_Label.Padding = New System.Windows.Forms.Padding(8, 0, 0, 0)
+        Me.MDP_Label.Size = New System.Drawing.Size(384, 51)
         Me.MDP_Label.TabIndex = 0
         Me.MDP_Label.Text = "Mot de passe"
         Me.MDP_Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -109,10 +106,9 @@ Partial Class Login
         Me.ModeDeConnexionPanel.Controls.Add(Me.ShapeContainer1)
         Me.ModeDeConnexionPanel.Controls.Add(Me.TypeDeConnexion)
         Me.ModeDeConnexionPanel.ForeColor = System.Drawing.Color.DarkBlue
-        Me.ModeDeConnexionPanel.Location = New System.Drawing.Point(40, 0)
-        Me.ModeDeConnexionPanel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ModeDeConnexionPanel.Location = New System.Drawing.Point(30, 0)
         Me.ModeDeConnexionPanel.Name = "ModeDeConnexionPanel"
-        Me.ModeDeConnexionPanel.Size = New System.Drawing.Size(296, 896)
+        Me.ModeDeConnexionPanel.Size = New System.Drawing.Size(222, 728)
         Me.ModeDeConnexionPanel.TabIndex = 0
         '
         'ConnecterLabel
@@ -122,10 +118,9 @@ Partial Class Login
         Me.ConnecterLabel.BackColor = System.Drawing.Color.Transparent
         Me.ConnecterLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ConnecterLabel.ForeColor = System.Drawing.Color.Transparent
-        Me.ConnecterLabel.Location = New System.Drawing.Point(0, 34)
-        Me.ConnecterLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.ConnecterLabel.Location = New System.Drawing.Point(0, 28)
         Me.ConnecterLabel.Name = "ConnecterLabel"
-        Me.ConnecterLabel.Size = New System.Drawing.Size(296, 117)
+        Me.ConnecterLabel.Size = New System.Drawing.Size(222, 95)
         Me.ConnecterLabel.TabIndex = 0
         Me.ConnecterLabel.Text = "Connecter en tant que"
         Me.ConnecterLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -136,7 +131,7 @@ Partial Class Login
         Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer1.Name = "ShapeContainer1"
         Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape2, Me.LineShape1})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(296, 896)
+        Me.ShapeContainer1.Size = New System.Drawing.Size(222, 728)
         Me.ShapeContainer1.TabIndex = 1
         Me.ShapeContainer1.TabStop = False
         '
@@ -147,8 +142,8 @@ Partial Class Login
         Me.LineShape2.BorderWidth = 4
         Me.LineShape2.Name = "LineShape2"
         Me.LineShape2.SelectionColor = System.Drawing.SystemColors.ControlLightLight
-        Me.LineShape2.X1 = 224
-        Me.LineShape2.X2 = 294
+        Me.LineShape2.X1 = 150
+        Me.LineShape2.X2 = 220
         Me.LineShape2.Y1 = 130
         Me.LineShape2.Y2 = 130
         '
@@ -173,11 +168,9 @@ Partial Class Login
         Me.TypeDeConnexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.TypeDeConnexion.Font = New System.Drawing.Font("Microsoft Sans Serif", 0.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TypeDeConnexion.ForeColor = System.Drawing.Color.Transparent
-        Me.TypeDeConnexion.Location = New System.Drawing.Point(0, 160)
-        Me.TypeDeConnexion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TypeDeConnexion.Location = New System.Drawing.Point(0, 130)
         Me.TypeDeConnexion.Name = "TypeDeConnexion"
-        Me.TypeDeConnexion.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.TypeDeConnexion.Size = New System.Drawing.Size(296, 736)
+        Me.TypeDeConnexion.Size = New System.Drawing.Size(222, 598)
         Me.TypeDeConnexion.TabIndex = 2
         Me.TypeDeConnexion.TabStop = False
         Me.TypeDeConnexion.Text = resources.GetString("TypeDeConnexion.Text")
@@ -198,10 +191,9 @@ Partial Class Login
         Me.AgentButton.ForeColor = System.Drawing.Color.Pink
         Me.AgentButton.Image = CType(resources.GetObject("AgentButton.Image"), System.Drawing.Image)
         Me.AgentButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.AgentButton.Location = New System.Drawing.Point(4, 134)
-        Me.AgentButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.AgentButton.Location = New System.Drawing.Point(3, 109)
         Me.AgentButton.Name = "AgentButton"
-        Me.AgentButton.Size = New System.Drawing.Size(288, 118)
+        Me.AgentButton.Size = New System.Drawing.Size(216, 96)
         Me.AgentButton.TabIndex = 10
         Me.AgentButton.Text = "Agent"
         Me.AgentButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -225,10 +217,9 @@ Partial Class Login
         Me.AdminButton.ForeColor = System.Drawing.Color.LavenderBlush
         Me.AdminButton.Image = CType(resources.GetObject("AdminButton.Image"), System.Drawing.Image)
         Me.AdminButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.AdminButton.Location = New System.Drawing.Point(4, 287)
-        Me.AdminButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.AdminButton.Location = New System.Drawing.Point(3, 233)
         Me.AdminButton.Name = "AdminButton"
-        Me.AdminButton.Size = New System.Drawing.Size(288, 119)
+        Me.AdminButton.Size = New System.Drawing.Size(216, 97)
         Me.AdminButton.TabIndex = 11
         Me.AdminButton.Text = "Agent Administratif"
         Me.AdminButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -239,10 +230,9 @@ Partial Class Login
         Me.avertissemnt.AutoSize = True
         Me.avertissemnt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.avertissemnt.ForeColor = System.Drawing.Color.LightCoral
-        Me.avertissemnt.Location = New System.Drawing.Point(404, 732)
-        Me.avertissemnt.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.avertissemnt.Location = New System.Drawing.Point(303, 595)
         Me.avertissemnt.Name = "avertissemnt"
-        Me.avertissemnt.Size = New System.Drawing.Size(423, 25)
+        Me.avertissemnt.Size = New System.Drawing.Size(348, 20)
         Me.avertissemnt.TabIndex = 5
         Me.avertissemnt.Text = "Mot de passe errone ! ressayez a nouveau"
         Me.avertissemnt.Visible = False
@@ -251,10 +241,9 @@ Partial Class Login
         '
         Me.profile_photo_login.BackColor = System.Drawing.Color.Gainsboro
         Me.profile_photo_login.Image = CType(resources.GetObject("profile_photo_login.Image"), System.Drawing.Image)
-        Me.profile_photo_login.Location = New System.Drawing.Point(991, 306)
-        Me.profile_photo_login.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.profile_photo_login.Location = New System.Drawing.Point(743, 249)
         Me.profile_photo_login.Name = "profile_photo_login"
-        Me.profile_photo_login.Size = New System.Drawing.Size(300, 283)
+        Me.profile_photo_login.Size = New System.Drawing.Size(225, 230)
         Me.profile_photo_login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.profile_photo_login.TabIndex = 3
         Me.profile_photo_login.TabStop = False
@@ -262,10 +251,9 @@ Partial Class Login
         'logo
         '
         Me.logo.Image = Global.EsistHistoryManagement_v1.My.Resources.Resources.logo
-        Me.logo.Location = New System.Drawing.Point(401, 34)
-        Me.logo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.logo.Location = New System.Drawing.Point(301, 28)
         Me.logo.Name = "logo"
-        Me.logo.Size = New System.Drawing.Size(483, 250)
+        Me.logo.Size = New System.Drawing.Size(362, 203)
         Me.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.logo.TabIndex = 1
         Me.logo.TabStop = False
@@ -273,10 +261,9 @@ Partial Class Login
         'bagrd_ellipse
         '
         Me.bagrd_ellipse.Image = CType(resources.GetObject("bagrd_ellipse.Image"), System.Drawing.Image)
-        Me.bagrd_ellipse.Location = New System.Drawing.Point(847, -410)
-        Me.bagrd_ellipse.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.bagrd_ellipse.Location = New System.Drawing.Point(635, -333)
         Me.bagrd_ellipse.Name = "bagrd_ellipse"
-        Me.bagrd_ellipse.Size = New System.Drawing.Size(1667, 1716)
+        Me.bagrd_ellipse.Size = New System.Drawing.Size(1250, 1394)
         Me.bagrd_ellipse.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.bagrd_ellipse.TabIndex = 2
         Me.bagrd_ellipse.TabStop = False
@@ -284,10 +271,10 @@ Partial Class Login
         'Login
         '
         Me.AcceptButton = Me.ConexionButton
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1357, 873)
+        Me.ClientSize = New System.Drawing.Size(1018, 701)
         Me.Controls.Add(Me.avertissemnt)
         Me.Controls.Add(Me.ConnexionPanel)
         Me.Controls.Add(Me.profile_photo_login)
@@ -296,10 +283,9 @@ Partial Class Login
         Me.Controls.Add(Me.bagrd_ellipse)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.MaximumSize = New System.Drawing.Size(1363, 937)
+        Me.MaximumSize = New System.Drawing.Size(1024, 950)
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(1363, 885)
+        Me.MinimumSize = New System.Drawing.Size(1024, 646)
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
