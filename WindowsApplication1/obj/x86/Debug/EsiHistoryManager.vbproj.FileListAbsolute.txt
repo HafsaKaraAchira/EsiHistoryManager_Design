@@ -41,3 +41,7 @@ C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj
 C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.Login.resources
 C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.Resources.resources
 C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsiHistoryManager.vbproj.GenerateResource.Cache
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\bin\Debug\EsistHistoryManagement.exe
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\bin\Debug\EsistHistoryManagement.pdb
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\bin\Debug\EsistHistoryManagement.xml
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.affichResearchResult.resources

@@ -76,6 +76,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="affichResearchResult.Designer.vb">
+      <DependentUpon>affichResearchResult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="affichResearchResult.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Critere.vb" />
     <Compile Include="modifpassword.Designer.vb">
@@ -120,6 +126,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="affichResearchResult.resx">
+      <DependentUpon>affichResearchResult.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="modifpassword.resx">
       <DependentUpon>modifpassword.vb</DependentUpon>
     </EmbeddedResource>
@@ -154,6 +163,8 @@
     <None Include="Resources\user profile.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\imagespoints1.png" />
+    <None Include="Resources\imagespoints.png" />
     <None Include="Resources\039-alert1.png" />
     <None Include="Resources\039-alert.png" />
     <None Include="Resources\diagram_bl.png" />

@@ -289,6 +289,7 @@
 
             If Me.TXT_MATRICUL.Text <> "" Then
                 i = 0
+                Label1.Text = Me.TXT_MATRICUL.Text
                 While i < TXT_MATRICUL.Text.Length And Me.worningrech.Visible = False
                     If Me.TXT_MATRICUL.Text(i) > "9" Or Me.TXT_MATRICUL.Text(i) < "0" Then
                         Me.worningrech.Visible = True
@@ -417,10 +418,14 @@
                     collection_critere.Add(New Critere("ANNEEBAC", Me.CB_ANNEEB.Text))
                 End If
 
+                Me.Close()
+
             End If
 
-            Me.Close()
             ' appel a traite rechercher
+
+
+
 
 
             'handling the appearnce of the affichage form
