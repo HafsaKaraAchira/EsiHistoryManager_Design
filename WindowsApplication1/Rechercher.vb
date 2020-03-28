@@ -166,7 +166,7 @@
                 .FlatStyle = FlatStyle.Popup
             End With
             With LB_WILAYANA
-                .Text = "Wilaya de naissance en Francais"
+                .Text = "Code de wilaya de naissance "
             End With
 
             With CB_WILAYAN
@@ -273,10 +273,20 @@
 
         Dim i As Integer
 
+
+        'les exeptions possibles
+
+        'no research if he had fill nothing
+
         If Me.TXT_ADR.Text = "" And Me.TXT_CODEPOS.Text = "" And Me.TXT_LIEUN.Text = "" And Me.TXT_LIEUNA.Text = "" And Me.TXT_MATRICUL.Text = "" And Me.TXT_MATRICULB.Text = "" And Me.TXT_MOYBAC.Text = "" And Me.TXT_NOM.Text = "" And Me.TXT_NOMA.Text = "" And Me.TXT_PRENOM.Text = "" And Me.TXT_PRENOMA.Text = "" And Me.TXT_VILLE.Text = "" And Me.CB_ANNEEB.Text = "" And Me.CB_SERI.Text = "" And Me.CB_SEXE.Text = "" And Me.CB_WILAYA.Text = "" And Me.CB_WILAYAB.Text = "" And Me.CB_WILAYAN.Text = "" And Me.CB_WILAYANA.Text = "" And Me.dtp_changed = False Then
             Me.worningrech.Visible = True
             Me.worningrech.Text = "Vous devez remplir en mois un champs !"
         Else
+
+            'no research if he had fill the long fealds with des chaines de char
+
+            'exeption pour le matricule
+
             If Me.TXT_MATRICUL.Text <> "" Then
                 i = 0
                 While i < TXT_MATRICUL.Text.Length And Me.worningrech.Visible = False
@@ -289,6 +299,7 @@
                 End While
             End If
 
+            'exeption pour le matricul du bac
             If Me.TXT_MATRICULB.Text <> "" Then
                 i = 0
                 While i < TXT_MATRICULB.Text.Length And Me.worningrech.Visible = False
@@ -301,6 +312,7 @@
                 End While
             End If
 
+            'exeption pour la moyenne du bac
             If Me.TXT_MOYBAC.Text <> "" Then
                 i = 0
                 While i < TXT_MOYBAC.Text.Length And Me.worningrech.Visible = False
@@ -313,6 +325,7 @@
                 End While
             End If
 
+            'exeption pour le code postal
             If Me.TXT_CODEPOS.Text <> "" Then
                 i = 0
                 While i < TXT_CODEPOS.Text.Length And Me.worningrech.Visible = False
@@ -406,12 +419,23 @@
 
             End If
 
+            Me.Close()
             ' appel a traite rechercher
 
 
+            'handling the appearnce of the affichage form
+
+            Home.f = New affichResearchResult()         ' assign the search form to  the f form
+            Home.f.TopLevel = False
+            'f.TopMost = True
+            Home.f.WindowState = FormWindowState.Normal
+            Home.MainContainer.Controls.Add(Home.f)        ' add the controlers of the searche page to the main form f 
+            Home.f.Show()                                ' show the form f in the middle of the home page
+            Home.MainContainer.Visible = True
+            Home.MainContainer.Width = 680            ' adjust its appearance
 
         End If
-            'Me.Close()
+
     End Sub
 
     Private Sub DTP_DATEN_ValueChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DTP_DATEN.ValueChanged, DTP_DATEN.GotFocus, DTP_DATEN.Click

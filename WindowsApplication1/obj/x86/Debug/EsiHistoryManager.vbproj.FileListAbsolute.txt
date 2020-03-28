@@ -32,3 +32,12 @@ C:\Users\hadia\Documents\GitHub\graphic\EsiHistoryManager\WindowsApplication1\ob
 C:\Users\hadia\Documents\GitHub\graphic\EsiHistoryManager\WindowsApplication1\obj\x86\Debug\EsiHistoryManager.vbproj.GenerateResource.Cache
 D:\@SEMESTRE 4\Projet_G18\WindowsApplication1\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.modifpassword.resources
 D:\@SEMESTRE 4\Projet_G18\WindowsApplication1\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.Rechercher.resources
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement.exe
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement.xml
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement.pdb
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.modifpassword.resources
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.Rechercher.resources
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.Home.resources
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.Login.resources
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsistHistoryManagement_v1.Resources.resources
+C:\Users\hadia\Documents\GitHub\EsiHistoryManager_Design\WindowsApplication1\obj\x86\Debug\EsiHistoryManager.vbproj.GenerateResource.Cache
